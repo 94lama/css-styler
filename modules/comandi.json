@@ -1,0 +1,33 @@
+{
+    "type": "module",
+    "index":
+        ["a", "address", "area", "article","audio", "b", "body", "br", "button", "canvas", "code", "div", "footer", "form", "header", "h1", "h2", "h3", "h4", "h5", "h6", "iframe", "img", "input", "label", "li", "link", "nav", "ol", "option", "p", "script", "style", "table", "textarea", "ul", "video"],
+
+    "a": [
+        ["href", "indica il percorso (relativo o assoluto da aprire"],
+        ["_blank", "apre il link in una nuova scheda"],
+        ["_self", "apre il documento nella stessa scheda"]
+    ],
+    "div": [
+        ["background", "definisce lo sfondo di un elemento", ["color", "linearGradient", "radialGradient"]]
+    ],
+    "background": [
+        ["backgroundColor", "definisce il colore dello sfondo"],
+        ["img", "permette di usare un'immagine come sfondo"], ["linear gradient", "imposta un gradiente lineare come sfondo"],
+        ["radial gradient", "imposta un gradiente circolare come sfondo"]
+    ],
+    "display": [
+        ["block", "occupa l'intera riga in cui è posizionato"],
+        ["contents", ""],
+        ["flex", "dispone i figli nella stessa riga e adatta le loro dimensioni in base allo schermo (anche se i tag figli hanno una width impostata)"],
+        ["grid", ""],
+        ["inline", "occupa lo spazio definito dalle sue dimensioni"]
+    ],
+    "testo": [
+        ["font", "definisce il font da utilizzare"],
+        ["fontSize", "definisce le dimensioni del font"],
+        ["letterSpacing", "imposta lo spazio tra le lettere"],
+        ["textDecoration", "imposta decorazioni al testo (sottolineato, barrato, ...)"],
+        ["text-shadow", "imposta l'ombreggiatura"]
+    ]
+}
